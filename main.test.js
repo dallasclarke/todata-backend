@@ -53,7 +53,7 @@ const originalTodos = [
 ]
 
 describe('getTodoName', () => {
-  it(`returns the text property of a todo`, () => {
+  xit(`returns the text property of a todo`, () => {
     const todo1 = {
     text: 'Christmas shopping',
 
@@ -74,7 +74,7 @@ describe('getTodoName', () => {
 })
 
 describe('getPriority', () => {
-  it(`returns the priority of a todo`, () => {
+  xit(`returns the priority of a todo`, () => {
     const todo1 = {
     text: 'Christmas shopping',
 
@@ -95,7 +95,7 @@ describe('getPriority', () => {
 })
 
 describe('isComplete', () => {
-  it(`returns whether the given todo is complete`, () => {
+  xit(`returns whether the given todo is complete`, () => {
     const todo1 = {
     text: 'Christmas shopping',
 
@@ -116,7 +116,7 @@ describe('isComplete', () => {
 })
 
 describe('isHighPriority', () => {
-  it(`returns whether the given todo is of high priority`, () => {
+  xit(`returns whether the given todo is of high priority`, () => {
     const todo1 = {
     text: 'Christmas shopping',
 
